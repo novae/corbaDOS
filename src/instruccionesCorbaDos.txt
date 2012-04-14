@@ -1,7 +1,7 @@
 ///corba 2
 
 cd C:\Users\TEC\Dropbox\IAD\entregarIAD\corbaDos\src
-idlj -fall Hello.idl 
+idlj -fall Contador.idl 
 javac *.java
 orbd -ORBInitialPort 1080
 
