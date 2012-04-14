@@ -14,7 +14,7 @@ public class ClienteContador{
                     String name = "Contador";
                     
                     contadorImpl = ContadorHelper.narrow(ncRef.resolve_str(name));
-                    System.out.println("Obteniendo un manejador para el objeto servidor: " + contadorImpl);
+                   // System.out.println("Obteniendo un manejador para el objeto servidor: " + contadorImpl);
                     for (int i=1;i<=10;i++)
                     {System.out.println("contador de incremeneto "+contadorImpl.inc());}
                     for (int i=1;i<=5;i++)

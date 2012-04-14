@@ -7,7 +7,7 @@ orbd -ORBInitialPort 1080
 
 
 cd C:\Users\TEC\Dropbox\IAD\entregarIAD\corbaDos\src
-java HelloServer -ORBInitialPort 1080 -ORBInitialHost localhost
+java ServidorContador -ORBInitialPort 1080 -ORBInitialHost localhost
 
 cd C:\Users\TEC\Dropbox\IAD\entregarIAD\corbaDos\src
-java HelloClient -ORBInitialPort 1080 -ORBInitialHost localhost
+java ClienteContador -ORBInitialPort 1080 -ORBInitialHost localhost
