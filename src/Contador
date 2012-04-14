@@ -1,0 +1,7 @@
+module ContadorApp 
+{ interface Contador 
+ { attribute long valor;
+   long inc();
+   long dec();
+ };
+};
