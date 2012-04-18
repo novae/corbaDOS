@@ -3,5 +3,6 @@ module ContadorApp
  { attribute long valor;
    long inc();
    long dec();
+   oneway void shutdown();
  };
 };
